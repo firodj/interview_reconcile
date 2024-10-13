@@ -46,8 +46,8 @@ Bank Statement:
 
 The application will be a CLI (comand line interface) application with arugments:
 ```
--i <path> for internal data path, and
--x <path> for external data path.
+-i <path> for internal data path (directory), and
+-x <path> for external data path (directory).
 -f <date> for from date.
 -t <date> for to date.
 ```
