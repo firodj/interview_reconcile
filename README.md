@@ -45,6 +45,9 @@ Bank Statement:
 ## Design
 
 The application will be a CLI (comand line interface) application with arugments:
+```
 -i <path> for internal data path, and
 -x <path> for external data path.
-
+-f <date> for from date.
+-t <date> for to date.
+```
