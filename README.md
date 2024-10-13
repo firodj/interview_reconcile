@@ -41,3 +41,10 @@ Bank Statement:
          * System transaction details if missing in bank statement(s)
          * Bank statement details if missing in system transactions (grouped by bank)
    * Total discrepancies (sum of absolute differences in amount between matched transactions)
+
+## Design
+
+The application will be a CLI (comand line interface) application with arugments:
+-i <path> for internal data path, and
+-x <path> for external data path.
+
